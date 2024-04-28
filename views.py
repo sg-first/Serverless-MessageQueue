@@ -29,7 +29,7 @@ def queueInsert(request):
         if request.method == 'POST':
             data = request.POST.get('insertContent')
             if data:
-                queue.append(request.POST.get('insertContent'))
+                queue.append(data)
                 return JsonResponse({'insertContent':data})
             else:
                 return JsonResponse({'retMsg':'need insertContent field'})
