@@ -1,5 +1,5 @@
 from django.urls import path
-import djangodemo.views as views
+from . import views
 
 urlpatterns = [
     path('pop/', views.queuePop),
