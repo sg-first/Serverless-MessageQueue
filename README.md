@@ -22,7 +22,7 @@
 
 ## 拉取最新代码
 * cd到之前克隆的仓库
-* git pull
+* `git pull`
 * `python cloudDeployment.py`
 * 点vscode框下面的部署按钮
 
